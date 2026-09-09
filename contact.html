@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Contact | Riverside Law</title>
+        <meta name="description" content="Professional legal services and consultation. Demo website.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="container nav">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">RL</span>
+                    <span class="brand-copy">
+                        <span class="brand-name">Riverside Law</span>
+                        <span class="brand-sub">Attorneys at Law</span>
+                    </span>
+                </a>
+                <button class="menu" aria-label="Menu">☰</button>
+                <nav>
+                    <ul>
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="attorneys.html">Attorneys</a></li>
+                        <li><a href="practice-areas.html">Practice Areas</a></li>
+                        <li><a href="case-results.html">Case Results</a></li>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a class="nav-cta" href="consultation.html">Schedule a Consultation&nbsp; →</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="page-hero">
+                <div class="container">
+                    <h1>Contact Us</h1>
+                    <p>Send an inquiry to the firm.</p>
+                </div>
+            </section>
+            <section>
+                <div class="container split"><div>
+                    <h2>Our office</h2>
+                    <p>123 Independence Avenue<br>Accra, Ghana</p>
+                    <p>Phone: +233 20 000 0000<br>Email: info@example.com</p>
+                    <p class="muted">DEMO CONTACT DETAILS — replace before publishing.</p>
+                </div>
+                <div class="card">
+                    <h3>Send an Inquiry</h3>
+                    <form action="php/contact.php" method="post" data-validate>
+                        <div class="form-grid"><div>
+                            <label>Name *</label>
+                            <input name="name" required>
+                        </div>
+                        <div>
+                            <label>Email *</label>
+                            <input type="email" name="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Phone</label>
+                        <input name="phone">
+                    </div>
+                    
+                    <div>
+                        <label>Subject *</label>
+                        <input name="subject" required>
+                    </div>
+                    <div>
+                        <label>Message *</label>
+                        <textarea name="message" required></textarea>
+                    </div>
+                    <button class="btn" type="submit">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-title">Riverside Law</div>
+            <p>Professional legal guidance built around clarity, preparation and client service.</p>
+        </div>
+        <div>
+            <div class="footer-title">Explore</div>
+            <p>
+                <a href="about.html">About</a>
+                <br><a href="attorneys.html">Attorneys</a>
+                <br><a href="practice-areas.html">Practice Areas</a>
+            </p>
+        </div>
+        <div>
+            <div class="footer-title">Contact</div>
+            <p>123 Independence Avenue<br>Accra, Ghana<br>+233 20 000 0000</p>
+        </div>
+    </div>
+    <div class="container copyright">
+        © 2026 Riverside Law..
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
